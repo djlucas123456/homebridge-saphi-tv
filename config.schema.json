@@ -116,7 +116,7 @@
         "required": true,
         "default": true,
         "condition": {
-          "functionBody": "return model.has_ambilight === true;"
+          "functionBody": true
         }
       },
       "ambi_poweroff": {
@@ -124,7 +124,7 @@
         "required": true,
         "default": true,
         "condition": {
-          "functionBody": "return (model.has_ambilight === true && model.has_ambihue === true);"
+          "functionBody": true
         }
       },
       "ambi_poweron": {
@@ -132,7 +132,7 @@
         "required": true,
         "default": false,
         "condition": {
-          "functionBody": "return (model.has_ambilight === true && model.has_ambihue === true);"
+          "functionBody": true
         }
       },
       "inputs": {
